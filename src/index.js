@@ -1,7 +1,10 @@
 import React from 'react';
-import ReactDom from 'react-dom'
-
-function Greeting() {
-  return <h4>Hello Again build is done!</h4>
-}
-ReactDom.render(<Greeting />, document.getElementById('root'));
+import ReactDOM from 'react-dom';
+import './index.css';
+import Home from './pages/Home';
+ReactDOM.render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
