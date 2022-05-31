@@ -6,7 +6,7 @@ import backup from '../../assets/icons/backup.png'
 
 const Cards = () => {
     return (
-        <div className="w-75 mx-auto d-flex">
+        <div className="w-75 mx-auto my-5 d-flex">
             <div className="col-4 mx-2 d-flex">
                 <Card data={{
                     image: time, 

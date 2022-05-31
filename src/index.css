@@ -323,3 +323,20 @@ p {
   text-transform: capitalize;
   cursor: pointer;
 }
+.banner{
+  background-image: url("./assets/images/front-page.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15% 0;
+}
+.banner p,
+.banner h1{
+  color: #fff;
+}
+.contact{
+  padding: 10% 0;
+  background-image: url("./assets/images/contact-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

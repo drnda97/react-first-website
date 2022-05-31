@@ -8,7 +8,7 @@ const Nav = () => {
                     <img src={logo} alt='logo' className="my-3 w-10"/>
                 </a>
             </div>
-            <div className='ml-25 w-25'>
+            <div className='w-25'>
                 <ul className='d-flex w-100 mt-4'>
                     <li className="col-4 mt-4">
                         <a href="/">Pocetna</a>
@@ -18,6 +18,9 @@ const Nav = () => {
                     </li>
                     <li className="col-4 mt-4">
                         <a href="/">Sklapanje</a>
+                    </li>
+                    <li className="col-4 mt-4">
+                        <a href="/">Kontakt</a>
                     </li>
                 </ul>
             </div>
